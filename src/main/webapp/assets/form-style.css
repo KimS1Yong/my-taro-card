@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'KimjungchulMyungjo-Bold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/KimjungchulMyungjo-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: KimjungchulMyungjo-Bold, serif;
+    color: #50586C;
+    background-color: #DCE2F0;
+}
+
+button{
+    color: #DCE2F0;
+    background-color:#50586C;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    padding: 2px;
+}
+
+input {
+    border: 1px solid transparent;
+    border-radius: 2px;
+    padding: 2px;
+}
+
+figure {
+    width: 100%;
+    margin: 1rem 0;
+    aspect-ratio: 2 / 1;
+    overflow: hidden;
+    position: relative;
+    border-radius: 8px;
+}
+
+figure > img {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: auto;
+}
+
+
+main {
+    margin: auto;
+    max-width: 576px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    gap: 0.5rem;
+}
+
+section {
+    width: 100%;
+}
+
+section > form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+section > form * {
+    width: 100%;
+    padding: 4px;
+}
